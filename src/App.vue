@@ -34,7 +34,7 @@
  
 </nav>
     </header>
-    <main>
+    <main role="main">
       <div style="margin:10px" class="container-fluid">
         
   
@@ -88,9 +88,15 @@
    
     <app-notifikasi />
     <app-proses />
+   
       </div>
     
   </main>
+   <footer  style="bottom:0;left: 0;bottom: 0;width: 100%;text-align: center;" class="footer">
+     <div class="container" >
+       <p>By Rakhmadi</p>
+     </div>
+    </footer>
   </div>
 </template>
 
